@@ -1,5 +1,8 @@
 # Start Ruby on Rails Project on Docker Containers
 
+**This README.md will be removed after the first command below is executed.** \
+**The same content as this README.md is copied to START.md, so refer to it.**
+
 1. Run Rails and build the project.
     ```shell
     $ docker-compose run web rails new . --force --no-deps --database=postgresql
@@ -19,7 +22,6 @@
     development:
       <<: *default
       database: myapp_development
-
 
     test:
       <<: *default
